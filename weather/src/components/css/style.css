@@ -1,0 +1,53 @@
+html{
+    font-family: sans-serif;
+}
+
+
+.weather-box{
+    min-height:300px;
+    max-width:300px;
+    margin:5% auto;
+    padding: 5px;
+    background: rgb(210, 213, 255);
+    border: 1px solid rgb(181, 170, 255);
+    border-radius: 8px;
+    display: block;
+    box-shadow: 0 2px 25px rgba(126, 126, 126, 0.3);
+}
+
+.searchBox{
+    top: 25px;
+    padding: 8px;
+    display: block;
+    outline: none;
+    border: none;
+    width: 80%;
+    height:40px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    position: relative;
+    border-radius:4px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+
+.weather-box .info{
+    margin:12% 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.info h3{
+    color: #18152c;
+    font-weight: 400;
+    text-align: center;
+}
+
+#not-found{
+    text-align: center;
+    font-size: 1rem;
+    font-weight:500;
+    margin-top:15%;
+    font-family: sans-serif;
+}
